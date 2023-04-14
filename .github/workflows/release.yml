@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the repository
-        uses: actions/checkout@master
+        uses: actions/checkout@tr2b_branch
       - name: Generate the artifacts
         run : |
            pwd
